@@ -1,0 +1,31 @@
+.appearance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.appearance_item {
+  flex-basis: calc((100% - 10px)/2);
+}
+
+.appearance_item:nth-last-child(2) {
+  margin-top: -64px;
+}
+
+@media screen and (min-width: 480px) {
+ .appearance_item:nth-last-child(2) {
+  margin-top: -101px;
+}
+  }
+
+  @media screen and (min-width: 768px) {
+ .appearance_item:nth-last-child(2) {
+  margin-top: -167px;
+}
+  }
+
+    @media screen and (min-width: 1200px) {
+ .appearance_item:nth-last-child(2) {
+  margin-top: -266px;
+}
+  }

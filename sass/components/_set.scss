@@ -1,0 +1,19 @@
+.set_wrap {
+  display: flex;
+  gap: 10px;
+}
+
+.wrap_img {
+  width: 55%;
+}
+
+.set_list {
+  display: flex;
+flex-direction: column;
+  gap: 10px;
+}
+
+.set_item {
+  flex-basis: calc((100% - 10px)/2);
+}
+

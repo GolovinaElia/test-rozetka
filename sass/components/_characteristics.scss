@@ -1,0 +1,25 @@
+.characteristics_title {
+  display: block;
+  font-family: var(--secondary-font);
+  font-size: 29px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.characteristics_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.characteristics_item {
+  flex-basis: calc((100% - 20px)/2);
+}
+
+.characteristics_text {
+  line-height: 1.1;
+  padding-bottom: 30px;
+}
+
+

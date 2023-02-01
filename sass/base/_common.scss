@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--background-color);
+  color: var(--title-theme-color);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+hr {
+  width: 50%;
+  color: var(--title-theme-color);
+}
