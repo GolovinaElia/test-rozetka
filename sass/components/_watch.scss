@@ -1,26 +1,36 @@
 .watch_title {
-  width:290px;
- font-family: var(--secondary-font);
-    font-size: 29px;
-    line-height: 1.1;
-    font-weight: 700;
-    margin: 0 auto;
+  width: 290px;
+  font-family: var(--secondary-font);
+  font-size: 29px;
+  line-height: 1.1;
+  font-weight: 700;
+  margin: 0 auto;
 }
 
 .watch_img {
   margin-top: 50px;
 }
 
-  @media screen and (min-width: 768px) {
-.watch_img {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
+@media screen and (min-width: 768px) {
+  .watch_title {
+    width: 380px;
+    font-size: 40px;
+  }
+
+  .watch_img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-  @media screen and (min-width: 1200px) {
-.watch_img {
-  width: 50%;
-}
+@media screen and (min-width: 1200px) {
+  .watch_title {
+    width: 500px;
+    font-size: 50px;
+  }
+
+  .watch_img {
+    width: 50%;
+  }
 }
